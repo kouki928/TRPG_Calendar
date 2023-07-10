@@ -55,6 +55,7 @@
 - userId -> str
 - PassWord -> str
 - CalendarId -> list
+- UserSchedule -> dict
 ### 2. Calendar
 - CalendarId -> str
 - ParticipatingUser -> list

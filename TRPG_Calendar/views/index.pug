@@ -1,5 +1,14 @@
-extends layout
-
-block content
-  h1= title
-  p Welcome to #{title}
+doctype html
+html(lang="en")
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    script 
+      | const num = localStorage.length;
+      | console.log(num);
+      | if (num > 0){
+      | const userId = localStorage.getItem("userId");
+      | console.log(useId)
+      |}
